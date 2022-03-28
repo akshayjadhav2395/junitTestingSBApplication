@@ -14,6 +14,7 @@ public class UserService {
     private UserRepo userRepo;
 
     public UserService(UserRepo userRepo) {
+    	System.out.println("creating user...");
         this.userRepo = userRepo;
     }
 
